@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*BODY */
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+/* CENTER PAGE */
+.container {
+  width: 825px;
+  margin: 50px auto;
+  position: relative;
+}
+/* PAGE TITLE */
+h2 {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  font-size: 22px;
+  padding: 15px;
+}
+
+.sale-box {
+  color: white;
+  background-color: rgb(240, 54, 54);
+  position: absolute;
+  font-size: 16px;
+  display: inline-block;
+  top: -17px;
+  left: -38px;
+  text-align: center;
+  padding: 7px 15px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* MAIN ARTICLE */
+article {
+  border: 5px solid black;
+}
+.price {
+  font-size: 24px;
+}
+.freeShipping {
+  text-transform: uppercase;
+  color: rgb(170, 170, 170);
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* MORE INFO */
+
+.moreInfo:link,
+.moreInfo:visited {
+  color: black;
+}
+
+.moreInfo:hover,
+.moreInfo:active {
+  text-decoration-line: none;
+}
+
+.color-selectors {
+  margin-top: 40px;
+}
+.black-selector {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.blue-selector {
+  height: 30px;
+  width: 30px;
+  background-color: blue;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.red-selector {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(216, 25, 25);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.yellow-selector {
+  height: 30px;
+  width: 30px;
+  background-color: yellow;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.green-selector {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(28, 177, 28);
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.brown-selector {
+  height: 30px;
+  width: 30px;
+  background-color: rgb(83, 25, 25);
+  display: inline-block;
+}
+/* LIST */
+
+h3 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.detailslist li {
+  list-style: square;
+  line-height: 2em;
+}
+p {
+  margin-bottom: 6px;
+}
+
+/* BUTTON */
+
+.addButton {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+  border: none;
+  font-size: large;
+  width: 100%;
+  padding: 10px;
+  border-top: black solid 5px;
+}
+
+.addButton:hover {
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  border: none;
+  font-size: large;
+  cursor: pointer;
+  border-top: black solid 5px;
+}
